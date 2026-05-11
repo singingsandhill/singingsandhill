@@ -102,14 +102,14 @@ MSA-based running platform built with **Spring Boot, Kafka, Redis, and Docker**.
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<!-- <div align="center">
   <table>
     <tr>
       <td><img height="180em" src="https://github-readme-stats.vercel.app/api?username=singingsandhill&count_private=true&show_icons=true" alt="Git status"/></td>
       <td><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=singingsandhill&layout=compact" alt="Top Langs"/></td>
     </tr>
   </table>
-</div>
+</div> -->
 
 <a href="https://github.com/devxb/gitanimals">
   <img src="https://render.gitanimals.org/lines/singingsandhill?pet-id=726320386720505448" width="1000" height="120"/>
