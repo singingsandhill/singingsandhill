@@ -82,21 +82,25 @@ I focus on building reliable backend systems that connect data, business logic, 
 ## 🧐 Featured Projects
 
 ### datedate
+Calendar-based scheduling service for sharing availability and coordinating meetings.  
+🔗 [Deploy](https://datedate.site)
+🔗 [GitHub Repository](https://github.com/singingsandhill/calendar)
 
-Calendar-based scheduling service for sharing availability and coordinating meetings.
-[🔗 GitHub Repository](https://github.com/singingsandhill/calendar)
-
-- Built for simple schedule coordination and date voting
-- Supports GitHub Pages-friendly deployment
-- Improved maintainability with i18n message management
+- Built a group schedule coordination service where participants can select available dates on a calendar
+- Supported simple date, place, and menu voting through a shared link
+- Improved SEO with structured metadata, sitemap, robots.txt, and crawler-friendly pages
+- Added internationalization(i18n) support by separating UI messages and removing hard-coded Korean text
+- Designed for lightweight deployment and GitHub Pages-friendly/static-friendly presentation
 
 ### 42.195KM
+MSA-based running platform built with Spring Boot, Kafka, Redis, and Docker.  
+🔗 [GitHub Repository](https://github.com/singingsandhill/42.195)
 
-MSA-based running platform built with **Spring Boot, Kafka, Redis, and Docker**.
-[🔗 GitHub Repository](https://github.com/singingsandhill/42.195)
-- Built a group schedule coordination service where participants can select available dates on a calendar
-- Improved **SEO** with structured metadata, search engine registration, and crawler-friendly pages
-- Added **internationalization(i18n)** support by separating UI messages and removing hard-coded Korean text
+- Built an all-in-one running platform for runners, crews, and race participation management
+- Developed backend features for race application and crew/community domains
+- Applied Kafka-based Saga Pattern to manage distributed transactions across microservices
+- Used Redis to manage Saga state and maintain consistency between services
+- Containerized services with Docker and designed the system around MSA architecture
 
 ---
 
