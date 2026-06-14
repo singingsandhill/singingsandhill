@@ -52,9 +52,6 @@ I focus on building reliable backend systems that connect data, business logic, 
 - **Redis / Celery incident response**  
   Investigated a P1 Redis I/O incident on large file uploads and improved task-queue reliability by tuning Redis persistence and separating Celery broker/result-backend responsibilities.
 
-- **LLM response reliability**  
-  Improved Vertex AI Gemini response handling by detecting silent `MAX_TOKENS` truncation and routing failures to a fallback-model retry path.
-
 - **Celery memory optimization**  
   Analyzed Celery thread-pool memory retention with `tracemalloc`, identified multiple leak paths, and restored RSS baseline behavior for Kubernetes HPA scale-down.
 
@@ -63,19 +60,6 @@ I focus on building reliable backend systems that connect data, business logic, 
 
 - **Langfuse observability setup**  
   Built and troubleshot a self-hosted Langfuse v3 observability pipeline with MinIO, Redis, workers, and ClickHouse.
-
----
-
-## 🔭 Currently Exploring
-
-- **LLM application reliability**  
-  Provider fallback, response truncation handling, prompt tracing, and observability
-
-- **Distributed task queue operations**  
-  Celery memory behavior, Redis persistence tuning, and broker/result-backend isolation
-
-- **Async I/O performance**  
-  HTTP connection pooling, TLS handshake reuse, and per-stage latency profiling
 
 ---
 
